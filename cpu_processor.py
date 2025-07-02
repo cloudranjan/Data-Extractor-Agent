@@ -36,7 +36,7 @@ class CPUDataProcessor:
     Main class for processing CPU product pages and extracting structured data.
     """
     
-    def __init__(self, ollama_url: str = "http://192.168.101.66:11434", 
+    def __init__(self, ollama_url: str = "http://192.168.100.67:11434", 
                  model_name: str = "qwen2.5vl:latest",
                  excel_file: str = "CPU-DATA.xlsx"):
         """
